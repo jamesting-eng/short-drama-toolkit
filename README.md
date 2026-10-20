@@ -10,7 +10,8 @@ A director's field toolkit for short-form drama / micro-drama projects, covering
 
 | Module | Artifact | Highlights |
 | ------ | -------- | ---------- |
-| Script Doctor | Diagnostic report | 5 categories, 23 items on a 4-grade scale + 100-point overall score + 7-dimension revision notes — diagnose before you rewrite |
+| Script Doctor | Diagnostic report | Audience gender labeled first, then 6 categories / 27 items on a 4-grade scale + 100-point overall score + 7-dimension revision notes — diagnose before you rewrite |
+| Audience Gender Fit | Fit handbook | Male/female-audience hook & taboo tables, the three-layer dramatic weight formula (stakes / self-knowledge / dilemma), and romance obstacle design — the cure for naive-fluff romance scripts |
 | Character Sheet | 59-item questionnaire | 3-layer character bible (physical / psychological / social) — doubles as the visual-anchoring source for AI storyboard art |
 | Hollywood Format | Screenplay docx | Industry-standard indent-column layout adapted for Chinese screenplays; auto-verified against a PASS/FAIL checker |
 | Shot Breakdown | shots.json + xlsx | Structured intermediate data shared by 4 downstream consumers |
@@ -21,7 +22,7 @@ A director's field toolkit for short-form drama / micro-drama projects, covering
 
 ## Pricing
 
-This is a **Pay Skill**. Each invocation costs **¥2.68 CNY** (single use), paid through the SkillHub platform.
+This is a **Pay Skill**: **¥6.8 CNY per project**, paid through the SkillHub platform. After payment, repeated calls for the same project within 24 hours are never charged again (the 24-hour window is a double-charge guard, not a day pass).
 
 ## Repository Layout
 
@@ -31,6 +32,7 @@ short-drama-toolkit/
 ├── LICENSE.txt               # Tiered license notice
 └── references/
     ├── taste-and-judgment.md # Judgment handbook: what gets rejected, and why
+    ├── audience-gender-fit.md # Audience gender-fit handbook: hooks, taboos, dramatic weight, romance obstacles
     ├── script-doctor.md      # Evaluation framework (pre-rewrite diagnosis)
     ├── character-sheet.md    # 59-item character bible questionnaire
     ├── hollywood-format.md   # Format spec with measured parameters
