@@ -1,7 +1,7 @@
 ---
 name: short-drama-toolkit
-version: 1.1.2
-description: A WorkBuddy Pay Skill for short-drama pre-production. Script doctor, character bios, Hollywood-format screenplay, shot breakdown, AI storyboard, location scouting, shooting schedule, and video preview — all the documents a director needs before the first slate.
+version: 1.2.3
+description: A WorkBuddy Pay Skill for short-drama pre-production. Script doctor (with audience gender-fit diagnosis), character bios, Hollywood-format screenplay, shot breakdown, AI storyboard, location scouting, shooting schedule, and video preview — all the documents a director needs before the first slate.
 agent_created: true
 ---
 
@@ -36,18 +36,22 @@ A complete pre-production pipeline for short-form drama / micro-drama, from scri
 6. **Fix upstream bugs before downstream output.** Verify logic consistency before generating boards, schedules, or previews.
 7. **Archive only head and tail.** Keep the original and the final; delete intermediate files without regret when the user says delete.
 8. **Video preview is silent by default.** Code-generated BGM tends to sound cheap or uncanny. Add music only when the user supplies a properly licensed track. Sound effects live on their own tracks.
+9. **Audience gender comes before content design.** Label the target audience (male-frequency / female-frequency) before writing — hook structures, taboos, and the romance-vs-intrigue ratio all shift with the label. Writing a female-frequency script with male-frequency instincts earns rewrites.
+10. **Pure romance must carry background weight.** A love story never floats free: the lead's personal choices must be tied to background stakes (nation / class / survival), there must be a "damned either way" dilemma at the climax, and the romance needs real obstacles. Miss one and it reads as naive fluff.
 
 ## End-to-End Workflow
 
 ### Step 0: Read the judgment handbook
 
-Before any output, read `references/taste-and-judgment.md`. The 8 red lines above are a summary; the handbook is the full record of user corrections and project-specific standards.
+Before any output, read `references/taste-and-judgment.md`. The 10 red lines above are a summary; the handbook is the full record of user corrections and project-specific standards. For romance / emotion-driven scripts, also read `references/audience-gender-fit.md` (audience gender-fit handbook).
 
 ### Step 1: Script revision
 
-**Diagnose first.** Run the script-doctor evaluation from `references/script-doctor.md` (5 categories, 23 items, 4-grade scale, 100-point total, 7-dimension revision notes). Confirm the issue list with the director before rewriting.
+**Diagnose first.** Run the script-doctor evaluation from `references/script-doctor.md` (label the audience gender first, then 6 categories, 27 items, 4-grade scale, 100-point total, 7-dimension revision notes). Confirm the issue list with the director before rewriting.
 
 If character scores are low (motivation contradictions, tool-like roles, intelligence drops), rebuild the character using `references/character-sheet.md` (59 items across physical / psychological / social layers). The "decisive past moment" field is usually the source of the protagonist's single dominant motivation.
+
+If gender-fit / dramatic-weight scores are low (naive fluff, no dilemma, romance too smooth), fix them with `references/audience-gender-fit.md` (male/female-frequency hook tables, the three-layer weight formula, and obstacle design).
 
 Principles:
 - Add dialogue and polish wording only; do not move locked blocking.
