@@ -6,6 +6,8 @@ A director's field toolkit for short-form drama / micro-drama projects, covering
 > The runnable skill package (with the real per-use payment gate) is published on **SkillHub**:  
 > 👉 [https://skillhub.cn/skills/user_839f3063/short-drama-toolkit](https://skillhub.cn/skills/user_839f3063/short-drama-toolkit)
 
+> The v1.3.0 documentation adds a **Quick Start**, a **Capability Scope**, and an **FAQ** to SKILL.md — start there if you're new.
+
 ## What It Does
 
 | Module | Artifact | Highlights |
@@ -22,7 +24,7 @@ A director's field toolkit for short-form drama / micro-drama projects, covering
 
 ## Pricing
 
-This is a **Pay Skill**: **¥6.8 CNY per project**, paid through the SkillHub platform. After payment, repeated calls for the same project within 24 hours are never charged again (the 24-hour window is a double-charge guard, not a day pass).
+This is a **Pay Skill**: **¥6.8 CNY per project**, paid through the SkillHub platform. After payment, repeated calls for the same project within the 24-hour session window are never charged again; a new call after the window expires simply re-checks payment.
 
 ## Repository Layout
 
